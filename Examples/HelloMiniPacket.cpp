@@ -1,4 +1,9 @@
-//This is a copy of HelloMiniPacket.cpp
+
+//platformIO only allows one setup() and loop() to be declared, 
+//hence these example sketches are commented out. 
+/* change "/*" on left to "//*" to activate sketch
+
+
 #include <Arduino.h>
 #include "MiniPacket.h"
 void setup()
@@ -24,3 +29,4 @@ void loop()
   while(1)
     delay(1000);
 }
+//*/
